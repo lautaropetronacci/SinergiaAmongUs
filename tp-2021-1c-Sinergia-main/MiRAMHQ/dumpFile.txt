@@ -1,0 +1,29 @@
+-----------------------------------------------------------------------------------------------------------------------------
+7/8/2021 2:0:16
+ESQUEMA SEGMENTACION
+
+Proceso: 1          Segmento: 0          Inicio: 0          Tamaño: 8          []
+Proceso: 1          Segmento: 1          Inicio: 8          Tamaño: 252        []
+Proceso: 1          Segmento: 2          Inicio: 260        Tamaño: 24         []
+Proceso: 1          Segmento: 3          Inicio: 284        Tamaño: 24         []
+Proceso: 2          Segmento: 0          Inicio: 308        Tamaño: 8          []
+Proceso: 2          Segmento: 1          Inicio: 316        Tamaño: 142        []
+Proceso: 1          Segmento: 4          Inicio: 458        Tamaño: 24         []
+Proceso: 2          Segmento: 2          Inicio: 482        Tamaño: 24         []
+Proceso: 2          Segmento: 3          Inicio: 506        Tamaño: 24         []
+Proceso: 3          Segmento: 0          Inicio: 530        Tamaño: 8          []
+Proceso: 3          Segmento: 1          Inicio: 538        Tamaño: 376        []
+Proceso: 2          Segmento: 4          Inicio: 914        Tamaño: 24         []
+Proceso: 3          Segmento: 2          Inicio: 938        Tamaño: 24         []
+Proceso: 3          Segmento: 3          Inicio: 962        Tamaño: 24         []
+Proceso: 4          Segmento: 0          Inicio: 986        Tamaño: 8          []
+Proceso: 4          Segmento: 1          Inicio: 994        Tamaño: 398        []
+Proceso: 3          Segmento: 4          Inicio: 1392       Tamaño: 24         []
+Proceso: 4          Segmento: 2          Inicio: 1416       Tamaño: 24         []
+Proceso: 4          Segmento: 3          Inicio: 1440       Tamaño: 24         []
+Proceso: 5          Segmento: 0          Inicio: 1464       Tamaño: 8          []
+Proceso: 5          Segmento: 1          Inicio: 1472       Tamaño: 154        []
+Proceso: 0          Segmento: -1         Inicio: 1626       Tamaño: 14758      [LIBRE]
+
+TOTAL PARTICIONES: 22.
+-----------------------------------------------------------------------------------------------------------------------------

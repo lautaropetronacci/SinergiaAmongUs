@@ -1,0 +1,39 @@
+EJEMPLOS INSERTAR EN LISTAS:
+	infoTripulante* aux = malloc(sizeof(infoTripulante));
+	aux -> tareaAsignada = false;
+
+	aux -> idTripulante = 1;
+
+	aux->idPatota = 2;
+	aux->posicionX = 2;
+	aux->posicionY = 3;
+	aux->estado = NEW;
+
+	infoTripulante* aux2 = malloc(sizeof(infoTripulante));
+	aux2 -> tareaAsignada = false;
+
+	aux2 -> idTripulante = 2;
+
+	aux2->idPatota = 3;
+	aux2->posicionX = 3;
+	aux2->posicionY = 4;
+	aux2->estado = READY;
+
+	list_add(LISTA_LISTO, aux);
+	list_add(LISTA_LISTO, aux2);
+
+	bool esTripulante(infoTripulante* a){
+		return a->idTripulante == aux->idTripulante;
+	}
+
+	infoTripulante* aux3 = malloc(sizeof(infoTripulante));
+	aux3 = list_remove_by_condition(LISTA_LISTO, esTripulante);
+
+	infoTripulante* aux4 = malloc(sizeof(infoTripulante));
+	aux4 = list_remove_by_condition(LISTA_LISTO, esTripulante);
+
+	printf("%d", aux3->idTripulante);
+
+	printf("%d", aux4);
+
+
